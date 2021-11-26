@@ -8,3 +8,5 @@ Route::get('/hello', function () {
         'message' => 'Hello'
     ], 200);
 });
+
+Route::apiResource('/v1/rest', RestController::class);
